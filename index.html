@@ -6,23 +6,42 @@
         <title>About Me</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
-        <div class="topnav">
-            <div class="logo">Daniel Marshall</div>
-            <div class="topnava">
-                <a class="active" href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact Me</a>
-            </div>
-        </div>
+        
     </head>
+    <nav class="navbar navbar-expand-md bg-info navbar-dark">
+
+        <a class="navbar-brand" href="#">Daniel Marshall</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Me</a>
+            </li> 
+          </ul>
+        </div> 
+      </nav>
+   
+        
     <body>
-       <div class="wrapper">
-           <h2>About Me</h2>
+          
+       <div class="container-fluid">
+           <h2 class="text-secondary">About Me</h2>
            <div class="profile">
-               <img src="assets/images/headshot.jpg" class="medium" alt="">
+               <img src="assets/images/headshot.jpg" class="img-thumbnail" alt="">
             </div>
-           <div class="about">
+           <div class="aboutMe">
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores autem harum sint voluptatibus alias eum veniam dolor numquam, at, impedit ut. Repellat animi, eos molestiae iure magnam minus maxime porro?
                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi minus ea nesciunt sapiente? Odio eveniet fugit natus, quam voluptates cupiditate nostrum, delectus itaque recusandae animi nihil possimus voluptatum aut facere!
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam maiores similique harum sunt, voluptas blanditiis iusto culpa ipsam distinctio error officia veritatis commodi odit mollitia cupiditate animi tenetur eaque fugit!
@@ -38,5 +57,10 @@
         
   
     </body>
-    <footer class="footer">Copyright &#169 2018</footer>
+    <footer class="page-footer font-small dark">
+
+        <div class="footer-copyright text-center bg-info py-3 fixed-bottom"> Copyright 2018
+        </div>
+      
+      </footer>
 </html>

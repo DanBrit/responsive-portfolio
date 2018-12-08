@@ -1,0 +1,27 @@
+.profile {
+  float: left;
+  width: 50%;
+
+}
+.container-fluid {
+
+  margin-top: 35px;
+  margin-bottom: 50px;
+  
+}
+footer {
+  color: white;
+  height:100px;
+
+}
+.thumbnail {
+  position: relative;
+
+}
+.link-content {
+  bottom:0;
+  position: absolute;
+  left: 20px;
+  opacity: .95;
+
+}
